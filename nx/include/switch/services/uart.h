@@ -248,3 +248,4 @@ Result uartPortSessionBindPortEvent(UartPortSession* s, UartPortEventType port_e
 Result uartPortSessionUnbindPortEvent(UartPortSession* s, UartPortEventType port_event_type, bool *out);
 
 ///@}
+

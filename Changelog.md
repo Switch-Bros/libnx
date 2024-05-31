@@ -1,5 +1,30 @@
 # Changelog
 
+## Version 4.7.0
+
+#### system
+* Basic support for 18.0.0
+
+#### services
+* fs: add GetFileSystemAttribute cmd
+* fs: Implement "ChallengeCardExistence" and "GetGameCardDeviceCertificate"
+
+#### graphics
+* nvchannel: Fix SET_CLK_RATE, implement GET_CLK_RATE and SET_SUBMIT_TIMEOUT
+
+#### miscellaneous
+* Update SetSysProductModel_Aula comment
+
+## Version 4.6.0
+
+#### system
+* svc: fix query/insecure names
+
+#### miscellaneous
+* add fsDeviceOperatorGetGameCardUpdatePartitionInfo
+* Add NX_ prefix to PACKED, NORETURN, IGNORE_ARG and DEPRECATED macros
+* Fix: avoid segfault at static destructors
+
 ## Version 4.5.0
 
 #### services
